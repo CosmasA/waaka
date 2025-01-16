@@ -325,3 +325,65 @@ body {
   border-top: 1px solid #6c757d;
   margin: 1.5rem 0;
 }
+
+/* FAQs */
+.faq-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.accordion-body {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* About Section */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.about-section h2,
+.about-section h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.about-card,
+.faq-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.about-card .card-title,
+.faq-card h5 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.about-card .card-text,
+.faq-card p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}

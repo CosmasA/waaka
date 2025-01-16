@@ -1,23 +1,24 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Home/Navbar";
-import Hero from "./components/Home/Hero";
-import Properties from "./components/Home/Properties";
-import Popular from "./components/Home/Popular";
-import CoreValues from "./components/Home/CoreValues";
-import Testimonials from "./components/Home/Testimonials";
+import About from "./components/About/About";
 import Footer from "./components/Home/Footer";
+import FAQ from "./components/Home/FAQ.JSX";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
-    <div className="app">
-      <NavBar />
-      <Hero />
-      <Properties />
-      <Popular />
-      <CoreValues />
-      <Testimonials />
-      <Footer />
-    </div>
+    <Router>
+      <div className="app">
+        <NavBar />
+        <Routes>
+          <Route path="/waaka" element={<Home />} />
+          <Route path="/waaka/about" element={<About />} />
+          <Route path="/waaka/faq" element={<FAQ />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
