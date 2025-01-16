@@ -9,7 +9,7 @@ const NavBar = () => {
       {/* Navbar */}
       <Navbar expand="lg" className="navbar fixed-top">
         <Container>
-          <Navbar.Brand href="/" className="navbar-brand">
+          <Navbar.Brand href="/waaka" className="navbar-brand">
             Plotus
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -17,7 +17,7 @@ const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/waaka">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
               <Nav.Link href="#property">Properties</Nav.Link>
