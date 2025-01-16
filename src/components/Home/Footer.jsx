@@ -4,6 +4,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedin,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
       <Container>
         <Row>
           {/* About Section */}
-          <Col md={4} className="mb-3">
+          <Col md={3} className="mb-3">
             <h5>About Us</h5>
             <p>
               We are committed to providing the best platform for renting and
@@ -21,7 +22,7 @@ const Footer = () => {
           </Col>
 
           {/* Quick Links */}
-          <Col md={4} className="mb-3">
+          <Col md={3} className="mb-3">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li>
@@ -52,10 +53,27 @@ const Footer = () => {
             </ul>
           </Col>
 
+          {/* Addresss */}
+          <Col md={3}>
+            <h5>Address</h5>
+            <p>Kisaasi-Komamboga,</p>
+            <p>Kampala City, Uganda</p>
+            <p>Phone: +256 775 123 456</p>
+            <p>Email: waaka@gmail.com</p>
+          </Col>
+
           {/* Social Media */}
-          <Col md={4} className="mb-3">
+          <Col md={3} className="mb-3">
             <h5>Follow Us</h5>
             <div className="social-icons">
+              <a
+                href="https://whatsapp.com"
+                className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp />
+              </a>
               <a
                 href="https://facebook.com"
                 className="social-icon"
