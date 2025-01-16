@@ -1,4 +1,5 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { FaUser, FaShoppingCart } from "react-icons/fa";
 import Logo from "../../assets/logo.png";
 
@@ -10,7 +11,7 @@ const NavBar = () => {
       {/* Navbar */}
       <Navbar expand="lg" className="navbar fixed-top">
         <Container>
-          <Navbar.Brand href="/waaka" className="navbar-brand">
+          <Navbar.Brand as={Link} to="/" className="navbar-brand">
             <img className="logo" src={Logo} alt="app_logo" />
             Plotus
           </Navbar.Brand>
@@ -19,11 +20,17 @@ const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/waaka">Home</Nav.Link>
-              <Nav.Link href="/waaka/about">About</Nav.Link>
+              <Nav.Link as={Link} to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                About
+              </Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
               <Nav.Link href="#property">Properties</Nav.Link>
-              <Nav.Link href="/waaka/faq">FAQ</Nav.Link>
+              <Nav.Link as={Link} to="/faq">
+                FAQ
+              </Nav.Link>
 
               {/* User Profile Section */}
               <NavDropdown

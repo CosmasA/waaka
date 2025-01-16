@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Container, Accordion } from "react-bootstrap";
 
 const FAQ = () => {
