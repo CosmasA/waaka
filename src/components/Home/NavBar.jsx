@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { FaUser, FaShoppingCart } from "react-icons/fa";
+import Logo from "../../assets/logo.png";
 
 const NavBar = () => {
   const userName = "Apuke Cosmas";
@@ -10,6 +11,7 @@ const NavBar = () => {
       <Navbar expand="lg" className="navbar fixed-top">
         <Container>
           <Navbar.Brand href="/waaka" className="navbar-brand">
+            <img className="logo" src={Logo} alt="app_logo" />
             Plotus
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
