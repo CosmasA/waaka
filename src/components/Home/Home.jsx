@@ -4,6 +4,7 @@ import Properties from "./Properties";
 import Testimonials from "./Testimonials";
 import Popular from "./Popular";
 import CoreValues from "./CoreValues";
+import Partners from "./Partners";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Popular />
       <CoreValues />
       <Testimonials />
+      <Partners />
     </>
   );
 };

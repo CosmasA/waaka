@@ -387,3 +387,43 @@ body {
   font-size: 1rem;
   line-height: 1.6;
 }
+
+/* Our Partners */
+.partners-section {
+  padding: 20px 0;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-track {
+  display: flex;
+  gap: 30px;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-item {
+  flex: 0 0 auto;
+  width: 150px; /* Adjust logo size */
+  text-align: center;
+}
+
+.partner-logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

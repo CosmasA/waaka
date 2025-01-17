@@ -5,7 +5,18 @@ const About = () => {
   return (
     <div className="about-section py-5">
       <Container>
-        <h2 className="text-center mb-4">About Plotus</h2>
+        <h2 className="text-center mb-4">About Us</h2>
+
+        <Card className="about-card">
+          <Card.Body>
+            {/* <Card.Title className="text-center">Our Mission</Card.Title> */}
+            <Card.Text>
+              Plotus is committed to providing the best platform for renting and
+              selling properties. Your satisfaction is our priority.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <br />
 
         {/* Mission and Vision */}
         <Row className="mb-5">
@@ -21,6 +32,7 @@ const About = () => {
               </Card.Body>
             </Card>
           </Col>
+          <br />
           <Col md={6}>
             <Card className="about-card">
               <Card.Body>
