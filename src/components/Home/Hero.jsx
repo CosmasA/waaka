@@ -10,8 +10,11 @@ const Hero = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={Img1} alt="First slide" />
           <Carousel.Caption>
-            <h1>Welcome to MyApp</h1>
-            <p>Your one-stop solution for amazing content and features.</p>
+            <h1>Welcome to Plotus</h1>
+            <p>
+              Your one-stop solution platform for renting, hiring and selling
+              properties.
+            </p>
             <Button variant="info" style={{ color: "#fff" }} size="lg">
               Learn More
             </Button>
@@ -21,8 +24,11 @@ const Hero = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={Img2} alt="Second slide" />
           <Carousel.Caption>
-            <h1>Explore Our Features</h1>
-            <p>Discover a variety of tools designed to simplify your life.</p>
+            <h1>Explore Our Properties</h1>
+            <p>
+              Discover a variety of the available properties to simplify your
+              life.
+            </p>
             <Button variant="info" style={{ color: "#fff" }} size="lg">
               Get Started
             </Button>
@@ -32,8 +38,11 @@ const Hero = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={Img3} alt="Third slide" />
           <Carousel.Caption>
-            <h1>Join Our Community</h1>
-            <p>Connect with like-minded individuals and share ideas.</p>
+            <h1>Talk to Us</h1>
+            <p>
+              Connect with like-minded individuals and share ideas and
+              experiences.
+            </p>
             <Button variant="info" style={{ color: "#fff" }} size="lg">
               Join Now
             </Button>
