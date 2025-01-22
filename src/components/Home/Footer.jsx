@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaWhatsapp,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,29 +27,24 @@ const Footer = () => {
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#home" className="footer-link">
+                <Link to="/" className="footer-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" className="footer-link">
+                <Link to="/about" className="footer-link">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="footer-link">
+                <Link to="#contact" className="footer-link">
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#properties" className="footer-link">
+                <Link to="#properties" className="footer-link">
                   Properties
-                </a>
-              </li>
-              <li>
-                <a href="#faq" className="footer-link">
-                  FAQ
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
@@ -58,8 +54,10 @@ const Footer = () => {
             <h5>Address</h5>
             <p>Kisaasi-Komamboga,</p>
             <p>Kampala City, Uganda</p>
+            <p>Ntare Road,</p>
+            <p>Mbarara City, Western Uganda</p>
             <p>Phone: +256 775 123 456</p>
-            <p>Email: waaka@gmail.com</p>
+            <p>Email: plotusuganda@gmail.com</p>
           </Col>
 
           {/* Social Media */}

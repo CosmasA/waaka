@@ -28,9 +28,6 @@ const NavBar = () => {
               </Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
               <Nav.Link href="#property">Properties</Nav.Link>
-              <Nav.Link as={Link} to="/faq">
-                FAQ
-              </Nav.Link>
 
               {/* User Profile Section */}
               <NavDropdown

@@ -86,6 +86,87 @@ const About = () => {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>What types of properties do I find on Plotus?</h5>
+                <p>
+                  Plotus features houses, Lodges, Land, apartments, and
+                  commercial spaces for rent, hire, or sale.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>How accurate are property listings on Plotus?</h5>
+                <p>
+                  We strive for accuracy, but users are responsible for
+                  verifying property details with owners or agents.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>How does Plotus protect user data and privacy?</h5>
+                <p>
+                  We employ robust security measures and adhere to data
+                  protection policies to safeguard user information.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>
+                  Is Plotus involved in payment processing or transactions?
+                </h5>
+                <p>
+                  Yes, Plotus has Plotus Pay that assists our clients to
+                  transfer the payments directly to the property owners from
+                  their Mobile Money or Bank at zero cost.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>How do I make payments or transactions on Plotus?</h5>
+                <p>
+                  We facilitate connections between users and property owners or
+                  agents: transactions are done through Plotus Pay.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>How do I contact Plotus support?</h5>
+                <p>
+                  You can reach us through our: website using the contact us
+                  page, application, WhatsApp, phone call, or email for
+                  assistance or feedback.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={12} className="mt-4">
+            <Card className="faq-card">
+              <Card.Body>
+                <h5>How does Plotus handle user feedback and complaints?</h5>
+                <p>
+                  We value user input and address concerns promptly to ensure a
+                  smooth user experience.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </div>
