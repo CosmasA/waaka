@@ -36,7 +36,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/about" onClick={handleLinkClick}>
               About
             </Nav.Link>
-            <Nav.Link href="#contact" onClick={handleLinkClick}>
+            <Nav.Link as={Link} to="/contact" onClick={handleLinkClick}>
               Contact
             </Nav.Link>
             <Nav.Link href="#property" onClick={handleLinkClick}>

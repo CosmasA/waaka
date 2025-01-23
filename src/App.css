@@ -437,3 +437,13 @@ body {
   border-color: #0dcaf0 !important;
   color: white !important;
 }
+.contact-us {
+  padding: 1rem 0;
+}
+
+.map-container {
+  margin-top: 1rem;
+  padding: 10px;
+  justify-items: center;
+  align-content: center;
+}
