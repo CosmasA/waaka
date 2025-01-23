@@ -37,7 +37,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="#contact" className="footer-link">
+                <Link to="/contact" className="footer-link">
                   Contact
                 </Link>
               </li>
